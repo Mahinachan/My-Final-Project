@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Diet Diary!</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Welcome to "My Diet Diary!"</h1>
+
+      <form id="login">
+        <label for="login">Email: </label>
+        <input onchange="captureEmail(event)" name="email" />
+        <label id="pw">Password: </label>
+        <input onchange="capturePassword(event)" name="passowrd" />
+        <button id="submit">Submit</button>
+      </form>
+
+      <nav>
+        <img class="boxing" src="./img/boxing.png" alt="boxing" />
+
+        <h1>Menu</h1>
+
+        <ul class="menu">
+          <li class="navi"><a href="#setmygoal">♥ Set My Goal</a></li>
+          <li class="navi"><a href="#mydiary"> ♥ My Diary</a></li>
+          <li class="navi"><a href="#exercise">♥ Awesome Exercises</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+
+    <section>
+      <img class="boxing" src="./img/boxing.png" alt="boxing" />
+
+      <h1>Set My Goal!</h1>
+
+      <div class="pics">
+        <h2 id="future">◆ My Future Figure! ◆</h2>
+
+        <div class="yokonarabi">
+          <div class="pink">
+            <img src="./img/pink.jpg" alt="future!" />
+          </div>
+
+          <div class="yourgoal">
+            <form action="text">
+              <div class="goal">
+                <label class="question" id="reason" for="Dream"
+                  >How will I be when you lost weight?</label
+                >
+                <textarea id="slim" name="goal"></textarea>
+              </div>
+
+              <div class="goal">
+                <label class="question" for="weight goal">Weight Goal: </label>
+                <input type="text" id="weightgoal" />
+                <label class="question">lb!</label>
+              </div>
+
+              <div class="goal">
+                <label class="question" for="date">By: </label>
+                <input id="by" type="date" />
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="sidebar">
+          <img class="boxing" src="./img/boxing.png" alt="boxing" />
+
+          <h3><a name="exercise">Try! Awesome Exercises</a></h3>
+          <img id="poo" src="img/tenor.gif" />
+          <ul id="exercise">
+            <li>
+              <a href="https://www.youtube.com/watch?v=sC5VOxeQzxc" target="_blank">Zumba</a>
+            </li>
+
+            <li>Jogging</li>
+            <li>Yoga</li>
+            <li>Stand Up Paddle</li>
+            <li>HITT</li>
+          </ul>
+        </div>
+
+        <fieldset>
+          <legend>
+            <h2>◆ What is my current body type? (please pick☺) ◆</h2>
+          </legend>
+         
+          <input onclick="func1()" class="radio" type="radio" name="type"/>
+
+          <img class="bodytype" id="apple" onclick="func1()"
+            src="./img/640AppleShape.jpg"
+            alt="current"
+          />
+
+          <input onclick="func2()" class="radio" type="radio" name="type" />
+
+          <img class="bodytype" id="pear"
+          onclick="func2()"
+            src="./img/640PearShape.jpg"
+            alt="current"
+          />
+
+          <input onclick="func3()" class="radio" type="radio" name="type" />
+          
+          <img class="bodytype" id="boxtype" onclick="func3()"
+            src="./img/640BoxShape.jpg"
+            alt="current"
+          />
+        </fieldset>
+      </div>
+
+      <!-- <JSで＞!-- 選ばれたイメージが真ん中に一つだけ残るように-->
+
+      <br />
+    </section>
+
+    <section id="diary">
+      <img class="boxing" src="./img/boxing.png" alt="boxing" />
+      <h1><a name="mydiary">My Diary!</a></h1>
+
+      <!-- <div> -->
+        <form id="nikki">
+          <label for="text">Date: </label>
+          <input id="toki" type="date"/>
+          <textarea id="blog" placeholder="How&nbsp;am&nbsp;I&nbsp;doing&nbsp;today?"></textarea>
+          <button id="osu">Add</button>
+
+          <ul id="empty"></ul>
+        </form>
+      <!-- </div> -->
+
+    <button class="scroll-top" id="js-button">👆Top</button>
+      
+
+    </section>
+
+  <script src="./script.js"></script>  
+  </body>
+</html>

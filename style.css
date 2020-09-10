@@ -1,0 +1,282 @@
+a {
+  text-decoration: none;
+  color: #fff;
+
+}
+
+body {
+  margin:0 ;
+  font-size: 20px;
+  font-family: cursive;
+  color :#fff;  
+  background-image: url(./img/pexels-pixabay-326279.jpg);
+  background-size: cover;
+  height: 100%; 
+
+}
+
+#login {
+  text-align: center;
+  
+
+}
+
+#pw {
+  margin-left: 20px;
+}
+
+
+header h1 {
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 30px;
+  font-size: 50px;
+
+}
+
+nav {display:flex;
+   padding-top: 25px;
+   justify-content: center;  
+}
+
+nav h1 { 
+  margin: 0;
+  font-size: 25px;
+  padding-left: 10px;
+  padding-top: 0px;
+   
+}
+
+.menu {
+  list-style: none;
+  margin:0;
+  
+  
+  }
+.menu li {
+  display: inline;
+  padding-right: 25px;
+  font-size: 25px;
+  
+}
+.boxing {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  
+}
+
+.navi a:hover {
+font-size:30px;
+color:rgb(58, 171, 210);
+}
+
+section h1 {
+  display:inline-block;
+  font-size: 35px;
+}
+
+.pics {
+  padding-left:50px;
+}
+
+#future {
+  margin-top:0;
+}
+
+.pink {
+  display: inline-block;
+  border: 13px solid rgb(248, 168, 188);
+  transform: rotate(-15deg);
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 35px;
+  
+}
+
+.yokonarabi{
+  display:flex;
+}
+
+.yourgoal {
+  margin-left: 180px;
+  background-color: rgb(248, 168, 188, 0.5);
+  width: 750px;
+  border-radius: 5%;
+}
+
+.question {
+  font-size: 30px;
+}
+
+
+.bodytype {
+  width:125px;
+  height:125px;
+  border: 8px solid olivedrab;
+  margin-left: 20px;
+  
+  }
+
+#apple {
+  transition: all 500ms 0s ease;
+}
+
+.on {
+  transform: scale(1.5, 1.5);
+}
+
+.off {
+  transform: scale(1.0, 1.0);
+}
+
+#pear {
+  transition: all 500ms 0s ease;
+}
+
+.on {
+  transform: scale(1.5, 1.5);
+}
+
+.off {
+  transform: scale(1.0, 1.0);
+}
+
+#boxtype {
+  transition: all 500ms 0s ease;
+}
+
+.on {
+  transform: scale(1.5, 1.5);
+}
+
+.off {
+  transform: scale(1.0, 1.0);
+}
+
+.goal {
+  margin-left: 90px;
+  }
+
+#reason {
+  display:block;
+  margin-top: 20px;
+}
+
+#slim {
+  width: 500px;
+  height: 80px;
+  margin-top: 25px;
+  
+}
+
+#weightgoal {
+  width: 150px;
+  height: 50px;
+  margin-top: 25px;
+}
+
+#by {
+  margin-top: 25px;
+  width: 150px;
+  height: 50px;
+}
+
+h3 {
+  display: inline;
+}
+
+.sidebar {
+  float: right;
+  margin-top: 50px;
+  width: 37%;
+  font-size: 25px;
+}
+
+#exercise {
+  display: inline-block;
+  position: relative;
+}
+
+#poo {
+  width: 180px;
+  padding-left: 35px;
+}
+
+
+#exercise li {
+  font-size: 20px;
+  list-style-type: katakana-iroha;
+  color: rgb(58, 171, 210);
+  margin-left: 20px;
+  }
+
+#exercise li a {
+  text-decoration: none;
+  color: rgb(58, 171, 210);
+}
+
+#exercise li a:hover {
+  font-size:25px;
+  color:rgb(58, 171, 210, 0.5);
+  
+}
+
+fieldset {
+  width: 700px;
+  margin-top: 40px;
+}
+
+legend {
+  font-size: 18px;
+}
+
+.radio {
+  width: 45px;
+  height: 25px
+    
+}
+
+#nikki {
+  padding-top: 20px;
+  padding-left:30px;
+  margin-left: 30px;
+  margin-bottom: 200px;
+  width: 700px;
+  height: 170px;
+  background-color:rgb(155, 247, 155, 0.5) ;
+  }
+
+#nikki textarea {
+  display:block;
+  width: 600px;
+  height: 80px;
+  margin-left: 57px;
+  margin-top: 10px;
+}
+
+
+#osu {
+  margin-left: 58px;
+}
+
+/* pagetopにもどる */
+
+.scroll-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 100;
+  background-color: #3fefee;
+  opacity: 0.8;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  color: #fff;
+}
+
+.scroll-top:hover {
+  cursor: pointer;
+}
+
